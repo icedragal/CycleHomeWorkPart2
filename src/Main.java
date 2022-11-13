@@ -12,5 +12,20 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
             i++;
         }
+
+        //Task 1.2
+        System.out.println("Задание 1.2");
+        i = 1;
+        while (i < 11) {
+            System.out.print(i + " ");
+            i++;
+        }
+
+        System.out.println();
+
+        for (i = 10; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.print(" ");
     }
 }
