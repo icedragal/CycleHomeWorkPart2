@@ -66,5 +66,21 @@ public class Main {
             }
             i++;
         }
+
+        //Task 2.3
+        System.out.println("Задание 2.3");
+        //monthlyFee = 15_000;
+        //Инициализирована в задании 1.1
+        i = 1;
+        total = 0;
+        int accumulationPeriod = 9 * 12;
+        while (i <= accumulationPeriod) {
+            total = total + total / 100 * 7;
+            total = total + monthlyFee;
+            if (i % 6 == 0) {
+                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            }
+            i++;
+        }
     }
 }
