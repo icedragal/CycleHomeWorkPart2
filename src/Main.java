@@ -51,5 +51,20 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
             i++;
         }
+
+        //Task 2.2
+        System.out.println("Задание 2.2");
+        //monthlyFee = 15_000;
+        //Инициализирована в задании 1.1
+        total = 0;
+        i = 1;
+        while (total < 12_000_000) {
+            total = total + total / 100 * 7;
+            total = total + monthlyFee;
+            if (i % 6 == 0) {
+                System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            }
+            i++;
+        }
     }
 }
