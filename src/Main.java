@@ -82,5 +82,13 @@ public class Main {
             }
             i++;
         }
+
+        //Task 2.4
+        System.out.println("Задание 2.4");
+        int numberFirstFriday = 4;
+        while (numberFirstFriday <= 30) { //30 для ноября
+            System.out.println("Сегодня пятница, " + numberFirstFriday + "-е число. Необходимо подготовить отчет.");
+            numberFirstFriday +=7;
+        }
     }
 }
