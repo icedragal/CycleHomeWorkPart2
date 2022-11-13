@@ -38,5 +38,18 @@ public class Main {
             population = population + populationGrowth;
             System.out.println("Год " + i + ", численность населения составляет " + population);
         }
+
+        //Task 2.1
+        System.out.println("Задание 2.1");
+        //monthlyFee = 15_000;
+        //Инициализирована в задании 1.1
+        i = 1;
+        total = 0;
+        while (total < 12_000_000) {
+            total = total + total / 100 * 7;
+            total = total + monthlyFee;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            i++;
+        }
     }
 }
