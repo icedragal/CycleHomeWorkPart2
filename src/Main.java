@@ -90,5 +90,18 @@ public class Main {
             System.out.println("Сегодня пятница, " + numberFirstFriday + "-е число. Необходимо подготовить отчет.");
             numberFirstFriday +=7;
         }
+
+        //Task 3.1
+        System.out.println("Задание 3.1");
+        int thisYear = 2022;
+        int startYear = thisYear - 200;
+        int finishYear = thisYear + 100;
+        int cometPeriod = 79;
+        while (startYear <= finishYear) {
+            if (startYear % cometPeriod == 0) {
+                System.out.println(startYear);
+            }
+            startYear +=1;
+        }
     }
 }
