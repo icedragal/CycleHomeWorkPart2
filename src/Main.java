@@ -103,5 +103,12 @@ public class Main {
             }
             startYear +=1;
         }
+
+        //Task 3.2
+        System.out.println("Задание 3.2");
+        int firstMultiplier = 2;
+        for (int secondMultiplier = 1; secondMultiplier <= 10; secondMultiplier += 1) {
+            System.out.println(firstMultiplier + "*" + secondMultiplier + "=" + firstMultiplier * secondMultiplier);
+        }
     }
 }
